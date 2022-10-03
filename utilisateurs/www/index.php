@@ -1,15 +1,30 @@
 <?php 
+// page : définir la page à afficher.
 
-/**
- * Data Source Name (connectionString)
- * - host = adresse du serveur de base de données
- * - port = port (si ce n'est pas le port par défaut)
- * - dbname = nom de la base de données
- * - charset = jeu de caractères
- */
+/*
+$_GET[] = valeurs transmises par l'url
+*/
+echo '<pre>'.var_export($_GET, true). '</pre>';
 
-$dsn = 'mysql:host=localhost;port=3306;dbname=db_2204_users;charset=utf8mb4';
-
-$connexion = new PDO($dsn, 'users2204', 'azer');
+// si le parametre 'page' dans l'url n'est pas vide
+//$page = !empty($_GET['page']) ? $_GET['page'] : 'home';
+$page = $_GET['page'] ?? 'home';
 
 
+switch($page)
+{
+    case 'home':
+        // charger ici le fichier home.php
+        require '../View/home.php';
+    break;
+    case 'profile':
+        // charger ici le fichier profile.php
+        require '../View/profile.php';
+    break;
+    case 'groups':
+        require '../View/groups.php'; 
+        break;
+    default:
+        echo 'Erreur 404';
+    break;
+}
