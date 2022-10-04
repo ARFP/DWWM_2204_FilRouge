@@ -18,11 +18,14 @@ switch($page)
         require '../View/home.php';
     break;
     case 'profile':
-        // charger ici le fichier profile.php
-        require '../View/profile.php';
+        require '../Controller/ProfileController.php';
+        $controller = new Users\Controller\ProfileController();
+        $controller->index();
     break;
     case 'groups':
-        require '../View/groups.php'; 
+        require '../Controller/GroupController.php';
+        $controller = new GroupController();
+        $controller->index();
         break;
     default:
         echo 'Erreur 404';
