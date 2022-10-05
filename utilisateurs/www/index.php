@@ -1,4 +1,5 @@
 <?php 
+require '../vendor/autoload.php';
 // page : définir la page à afficher.
 
 /*
@@ -18,13 +19,11 @@ switch($page)
         require '../View/home.php';
     break;
     case 'profile':
-        require '../Controller/ProfileController.php';
-        $controller = new Users\Controller\ProfileController();
+        $controller = new \Users\Controller\ProfileController();
         $controller->index();
     break;
     case 'groups':
-        require '../Controller/GroupController.php';
-        $controller = new GroupController();
+        $controller = new \Users\Controller\GroupController();
         $controller->index();
         break;
     default:
