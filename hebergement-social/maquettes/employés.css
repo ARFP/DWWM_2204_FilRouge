@@ -1,0 +1,48 @@
+@import url(Hébergement_social.css);
+
+table{
+    table-layout: fixed;
+    width:20cm;
+    margin:auto;
+    margin-top:0px;
+    margin-bottom:10px;
+}
+
+main{
+    width:20cm;
+    margin:auto;
+}
+
+h1{
+    margin-bottom:0;
+}
+
+table, tr, th, td{
+    border-collapse: collapse;
+    border: 1px black solid;
+}
+
+tr:nth-child(even){
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+thead{
+    background-image: linear-gradient(violet, purple);
+}
+
+#Onglets{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Onglet{
+    display: flex;
+    flex-flow: column;
+    padding:0.2em;
+    border: 2px black solid;
+    background-image : linear-gradient(white, grey);
+}
+
+.Onglet>a{
+    color:blue;
+}
