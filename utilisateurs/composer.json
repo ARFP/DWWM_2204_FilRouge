@@ -1,0 +1,19 @@
+{
+    "name": "mdevoldere/utilisateurs-2204",
+    "description": "Ma super application de gestion d'utilisateurs",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mdevoldere",
+            "email": "mdevoldere@arfp.asso.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Users\\" : ""
+        }
+    }
+}
