@@ -1,0 +1,79 @@
+*{
+    box-sizing : border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:darkmagenta;
+    font-size: 1.6em;
+    margin-top : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-bottom: 50px;
+}
+
+header{
+    height: 3cm;
+}
+
+nav, #Logo{
+    position: absolute;
+}
+
+#Logo{
+    left:0;
+}
+
+#Logo img{
+    width: 150px;
+}
+
+nav{
+    right:0;
+    top:0
+}
+
+a{
+    color: orange;
+}
+
+nav>a{
+    margin: 0.5em
+}
+
+h1, h2, header{
+    background-image: linear-gradient(violet, purple);
+    border-bottom:1px solid white;
+}
+
+main{
+    margin-left : 20%;
+    margin-right : 20%;
+    text-align: justify;
+}
+
+h1, h2{
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+main, footer{
+    color:bisque;
+    background:purple;
+}
+
+nav>a, h1, h2, footer{
+    font-family: serif;
+}
+
+footer {
+    position : fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align : center;
+    padding : 10px;
+}
