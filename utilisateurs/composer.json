@@ -1,18 +1,18 @@
 {
-    "name": "mdevoldere/utilisateurs-2204",
-    "description": "Ma super application de gestion d'utilisateurs",
+    "name": "charvet-johnny/utilisateurs",
+    "description": "projet fil rouge formation DWWM2204",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mdevoldere",
-            "email": "mdevoldere@arfp.asso.fr"
+            "name": "Charvet Johnny",
+            "email": "charvetjohnny@outlook.fr"
         }
     ],
     "minimum-stability": "stable",
     "require": {},
     "autoload": {
-        "psr-4" : {
+        "psr-4": {
             "Users\\" : ""
         }
     }

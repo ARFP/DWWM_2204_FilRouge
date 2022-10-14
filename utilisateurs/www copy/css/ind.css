@@ -1,0 +1,102 @@
+:root{
+    --main-color:#3A3335;
+    --colorOne:#D81E5B;
+    --colorTwo:#F0544F;
+    --colorThree:#FDF0D5;
+    --colorFour:#C6D8D3;
+}
+
+* { 
+    box-sizing: border-box;
+    
+}
+html, body { 
+
+  min-height: 100vh; margin: 0;  
+  background-color: var(--main-color);
+  color: var(--colorThree);
+ 
+
+}
+
+.formGroup{
+    
+    display: flex;
+    justify-content: start;
+}
+.formUser{
+    display: flex;
+   
+}
+.formUser > fieldset
+{
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder
+{
+        color: var(--colorFour);
+        
+}
+input
+{
+    background-color:  var(--main-color);
+    color: var(--colorFour);
+    border:none;
+}
+fieldset {
+    
+    
+}
+.navlink {
+    border: 2px solid black;
+    width: 1em;
+    height: 1em;
+    font-size: 2em;
+    background-color: var(--colorFour);
+    padding: 0.5em;
+    margin: 20em 0.5em 1em 0.5em;
+    color: var(--colorFour);
+    text-decoration: none;
+    cursor:pointer;
+
+}
+nav {
+    height: 15vh;
+    padding-top: 2em;
+    text-align: center;
+   
+}
+.home {
+    background-color: var(--colorThree);
+    color: var(--main-color);
+}
+.profil{
+    background-color: var(--colorTwo);
+}
+.group{
+    background-color: var(--colorOne);
+}
+.createuser{
+    background-color: var(--main-color);
+}
+main{
+    
+}
+footer{
+
+    text-align: center;
+    
+    position: fixed;
+    
+    bottom:2vh;
+    
+   min-width: 100%;
+    
+    padding-top:50px;
+    
+    height:50px;
+    
+    
+    }
+

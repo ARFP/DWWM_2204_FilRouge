@@ -1,0 +1,62 @@
+.formuser {
+  
+}
+.form_user{
+    border-color: var(--secondary);
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.form_user>fieldset{
+    text-align: center;
+}
+
+.form_user > legend {
+    font-size: large;
+   
+}
+.all_user > div ,.if_resident > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_user label,.form_user input,.form_user select{
+    padding: 0.5rem;
+    margin:1rem 0;
+    left:none;
+}
+.form_user input,.form_user select{
+  
+}
+.form_user label{
+   
+}
+.user_medical_needs {
+    display: inline-block;
+    border-color: var(--secondary);
+    padding-top:1.5rem;
+    margin-top: 2rem;
+}
+.form_user {
+   
+}
+.all_user{
+   
+}
+
+.user_form_buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user_form_buttons >button{
+    display: block;
+    width: 10rem;
+    height: 3rem;
+    color:var(--secondary);
+    background-color: rgba(0, 0, 0, .1);
+    border-color: var(--secondary);
+}
+
+

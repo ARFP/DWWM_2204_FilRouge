@@ -1,0 +1,1 @@
+<h1>Suppression d'un groupe</h1>
