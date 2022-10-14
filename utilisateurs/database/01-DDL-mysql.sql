@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS groups CASCADE;
+DROP TABLE IF EXISTS users CASCADE;
+
 CREATE TABLE groups(
    group_id INT,
    group_name VARCHAR(50) NOT NULL,

@@ -1,0 +1,81 @@
+:root{
+    --main-color:#843175;
+    --secondary:#FFC;
+    --colorThree:#FF9900;
+    --colorFour:#E4236A;
+    --colorFive:#6CC8D7;
+
+    --gradient:#00000011;
+}
+
+  
+@media (prefers-color-scheme: light) {
+    :root {
+        --main-color: #FFC;
+        --secondary:#843175;
+    }
+} 
+
+* { 
+    box-sizing: border-box;
+    
+}
+
+html, body { 
+
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  
+  }
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6em;
+    align-items: center;
+    color: var(--secondary);
+    background-color: var(--main-color);
+    transition:color , background-color 0.7s ease-in-out;
+}
+
+
+main{
+    margin: 1em auto 0 auto;
+    padding:0 0 1rem 0;
+    
+    width: 120rem;
+    background-color: var(--gradient);
+    margin-bottom: 3em;
+}
+main p{
+    margin: .5rem;
+    padding: .2rem;
+    text-align: justify;
+}
+
+main  h1, main h2 ,.profil > header > h1{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--gradient);
+    background: linear-gradient(#FFFFFF22,#00000022,#00000022);
+    padding:1rem;
+    border-bottom: 1px solid #FFFFFF33;
+    width: 100%;
+    
+    
+
+}
+
+
+.dark{
+    background-color: var(--secondary);
+    color:var(--main-color);
+    transition:all 0.7s ease-in-out;
+    
+}
+.light{
+    background-color: var(--main-color);
+    color:var(--secondary)
+}
+

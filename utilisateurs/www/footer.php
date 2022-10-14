@@ -1,3 +1,3 @@
 <footer>
-    Copyright 2022 Moi
+    <div>© Copyright ARFP pour HBS</div>
 </footer>

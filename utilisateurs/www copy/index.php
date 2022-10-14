@@ -20,19 +20,14 @@ require '../vendor/autoload.php';
 
 ?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/ind.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/profil.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/header.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/footer.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/add_user.css" media="all" />
-    <script src="js/dark.js" defer></script>
-    <script src="js/create_user_form.js" defer></script>
+    <script src="./js/dark.js" defer></script>
 </head>
 <body>
 
